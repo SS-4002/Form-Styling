@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background-color: grey;
+}
+
+/* Header Style */
+header {
+    position: relative;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+header h1 {
+    color: #e6e5ee;
+    padding: 30px;
+    font-size: 50px;
+}
+
+/* Form Style */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(50, 50, 50, 0.9);
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.topic-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-message,
+.name-email {
+    gap: 15px;
+    font-size: 20px;
+}
+
+select,
+option {
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+}
+
+textarea {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+select,
+textarea,
+input {
+    border: 1px solid black;
+}
+
+select:valid,
+textarea:valid,
+input:valid {
+    border-color: green;
+}
+
+/* Button Style */
+button {
+    display: block;
+    margin: 40px auto;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #e6e5ee;
+    font-size: 20px;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
